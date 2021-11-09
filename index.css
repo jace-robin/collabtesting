@@ -1,36 +1,55 @@
 body {
     background-color: blueviolet;
-
 }
 
 
 #mainTitle {
-    color: white;
+    font-size: 50px;
     text-align: center;
 }
 
 /*Nav*/
-nav {
-    height: 6%;
+#topbar {
+    height: 50px;
+    width: 800px;
+    margin-top: 20px;
+    padding-top: 10px;
     background-color: turquoise;
+    flex: 1;
+    border-radius: 5px;
+}
 
+#topbar ul li {
+    display: inline-block;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topbar ul li a {
+    list-style-image: none;
+}
+
+.center {
+    text-align: center;
 }
 
 .glow {
-    font-size: 80px;
     color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
     }
 
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 15px #fff, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6, 0 0 45px #ff4da6;
     }
+}
+}
 }
