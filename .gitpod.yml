@@ -4,4 +4,3 @@ vscode:
     - ritwickdey.liveserver
     - eamodio.gitlens
     - github.vscode-pull-request-github
-    - esbenp.prettier-vscode

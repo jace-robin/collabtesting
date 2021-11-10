@@ -4,6 +4,7 @@ body {
 
 .text {
     color: grey;
+    text-shadow: 0 0 2px rgb(0, 0, 0)
 }
 
 .outline {
@@ -34,13 +35,13 @@ body {
 }
 
 #topbar ul li a:link {
-    color: black;
+    color: inherit;
     text-decoration: none;
 }
 
 
 #topbar ul li a:visited {
-    color: black;
+    color: inherit;
 }
 
 #topbar ul li a:hover {
