@@ -1,9 +1,11 @@
 body {
-    background-color: lightgrey;
+    background-color: grey;
 }
+
 .text {
     color: grey;
 }
+
 .outline {
     outline: black solid 3px;
 }
@@ -19,7 +21,7 @@ body {
     width: 800px;
     margin-top: 20px;
     padding-top: 10px;
-    background-color: seagreen;
+    background-color: lightgreen;
     flex: 1;
     border-radius: 5px;
 }
@@ -31,9 +33,16 @@ body {
     margin-right: 10px;
 }
 
-#topbar ul li a {
-    list-style-image: none;
-    user-select: contain;
+#topbar ul li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#topbar ul li a:visited {
+    color: black;
+}
+#topbar ul li a:hover {
+    color: grey;
 }
 
 .center {
@@ -41,18 +50,17 @@ body {
 }
 
 .glow {
-    text-align: center;
-    -webkit-animation: glow 2s ease-in-out infinite alternate;
-    -moz-animation: glow 2s ease-in-out infinite alternate;
-    animation: glow 2s ease-in-out infinite alternate;
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 5px rgb(240, 227, 227), 0 0 10px rgb(224, 222, 222), 0 0 15px #b9b8b8, 0 0 20px #817d7d, 0 0 25px #413e3e, 0 0 30px #2a2828, 0 0 35px #000000;
+        text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 5px rgb(224, 222, 222), 0 0 10px #b9b8b8, 0 0 15px #646060, 0 0 15px #413e3e, 0 0 15px #1f1d1d, 0 0 15px #000000;
     }
 
     to {
-        text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(24, 23, 23), 0 0 15px #292929, 0 0 20px #474545, 0 0 25px #757272, 0 0 30px #a3a1a1, 0 0 35px #ddd9d9;
+        text-shadow: 0 0 0px rgb(0, 0, 0), 0 0 5px rgb(34, 33, 33), 0 0 10px #3d3b3b, 0 0 15px #5e5a5a, 0 0 15px #bdbaba, 0 0 15px #d1cfcf, 0 0 15px #ffffff;
     }
 }
