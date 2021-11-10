@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+}
+
+.text {
+    color: grey;
+}
+
+.outline {
+    outline: black solid 3px;
+}
+
+#mainTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Nav*/
+#topbar {
+    height: 50px;
+    width: 800px;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: lightgreen;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#topbar ul li {
+    display: inline-block;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topbar ul li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#topbar ul li a:visited {
+    color: black;
+}
+#topbar ul li a:hover {
+    color: grey;
+}
+
+.center {
+    text-align: center;
+}
+
+.glow {
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 5px rgb(224, 222, 222), 0 0 10px #b9b8b8, 0 0 15px #646060, 0 0 15px #413e3e, 0 0 15px #1f1d1d, 0 0 15px #000000;
+    }
+
+    to {
+        text-shadow: 0 0 0px rgb(0, 0, 0), 0 0 5px rgb(34, 33, 33), 0 0 10px #3d3b3b, 0 0 15px #5e5a5a, 0 0 15px #bdbaba, 0 0 15px #d1cfcf, 0 0 15px #ffffff;
+    }
+}
