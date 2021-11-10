@@ -1,0 +1,54 @@
+/*Index*/
+body {
+    background-color: black;
+}
+
+#title {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 20%;
+    flex: 1;
+    transition: .3s;
+}
+
+#title:hover {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    flex: 1;
+    transition: .3s;
+}
+
+#title p {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.glow {
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 5px rgb(224, 222, 222), 0 0 10px #b9b8b8, 0 0 15px #646060, 0 0 15px #413e3e, 0 0 15px #1f1d1d, 0 0 15px #000000;
+    }
+
+    to {
+        text-shadow: 0 0 0px rgb(0, 0, 0), 0 0 5px rgb(34, 33, 33), 0 0 10px #3d3b3b, 0 0 15px #5e5a5a, 0 0 15px #bdbaba, 0 0 15px #d1cfcf, 0 0 15px #ffffff;
+    }
+}

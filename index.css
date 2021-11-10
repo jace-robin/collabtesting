@@ -15,37 +15,6 @@ body {
     text-align: center;
 }
 
-
-/*Index*/
-#title{
-    margin-left: 0px;
-    margin-right: 0px;
-    position: relative;
-    
-}
-#title h1{
-    color:white;
-    font-size: 50px;
-    margin-top: 20%;
-    transition: .3s;
-    max-width: 200px;
-}
-#title h1:hover{
-    color:#999;
-    font-size: 35px;
-    padding: 30px;
-    background-color: #444;
-    max-width: 200px;
-    border-radius: 50%;
-    margin-top: 20%; 
-    transition: .3s;   
-
-}
-#title a{
-    text-decoration: none;
-    color: white;
-}
-
 /*Nav*/
 #topbar {
     height: 50px;
@@ -73,9 +42,10 @@ body {
 #topbar ul li a:visited {
     color: black;
 }
+
 #topbar ul li a:hover {
     padding: 5px;
-    background-color: #bdbaba; 
+    background-color: #bdbaba;
     transition: .1s;
     border-radius: 20px;
 
